@@ -1,11 +1,10 @@
 import React from "react";
 import "./style.css";
 
-export default function App() {
+export default function App(props) {
   return (
     <div>
-      <h1>Hello It is from App</h1>
-      <p>Start editing to see some magic happen :)</p>
+      <h1>Hello It is from {props.name} App</h1>
     </div>
   );
 }
